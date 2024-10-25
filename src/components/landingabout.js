@@ -10,7 +10,7 @@ const LandingAbout = () => {
 <section className="homeland" id="home">
       <Container>
         <Row className="aligh-items-center">
-        <Col xs={12} md={4} xl={5}>
+        <Col xs={12} md={4} xl={4}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div>
@@ -18,7 +18,7 @@ const LandingAbout = () => {
                 </div>}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={8} xl={9}>
+          <Col xs={12} md={8} xl={8}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>

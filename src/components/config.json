@@ -1,50 +1,58 @@
 [
     {
-        "title": "Rengoku",
-        "text": "Kyojuro Rengoku (煉れん獄ごく 杏きょう寿じゅ郎ろう Rengoku Kyōjurō?) was a major supporting character of Demon Slayer: Kimetsu no Yaiba and the deuteragonist of the Mugen Train Arc. He was a Demon Slayer of the Demon Slayer Corps and the late Flame Hashira",
+        "title": "Web Development Project 1",
+        "text": "A comprehensive web application that utilizes modern frameworks and technologies to deliver a seamless user experience.",
         "img": "yfc.jpeg",
-        "link":"https://kimetsu-no-yaiba.fandom.com/wiki/Kyojuro_Rengoku"
+        "link": "https://example.com/web-development-project-1",
+        "tags": ["Web Development", "UI/UX Design"]
     },
     {
-        "title": "Inosuke",
-        "text": "Inosuke Hashibira (嘴はし平びら 伊い之の助すけ Hashibira Inosuke?) is one of the main characters of Demon Slayer: Kimetsu no Yaiba and along with Zenitsu Agatsuma, a traveling companion of Tanjiro Kamado and Nezuko Kamado.",
+        "title": "Mobile Development App",
+        "text": "An innovative mobile application designed to provide users with a unique experience using cutting-edge mobile technologies.",
         "img": "yfc.jpeg",
-        "link":"https://kimetsu-no-yaiba.fandom.com/wiki/Inosuke_Hashibira"
+        "link": "https://example.com/mobile-development-app",
+        "tags": ["Mobile Development", "UI/UX Design"]
     },
     {
-        "title": "Tengen",
-        "text": "Tengen Uzui (宇う髄ずい 天てん元げん Uzui Tengen?) is a major supporting character of Demon Slayer: Kimetsu no Yaiba and a major character in the Entertainment District Arc.",
+        "title": "AI-Powered Solution",
+        "text": "An artificial intelligence-based solution aimed at enhancing productivity through automation and intelligent insights.",
         "img": "yfc.jpeg",
-        "link":"https://kimetsu-no-yaiba.fandom.com/wiki/Tengen_Uzui"
+        "link": "https://example.com/ai-solution",
+        "tags": ["Artificial Intelligence", "Web Development"]
     },
     {
-        "title": "Mitsuri",
-        "text": "Mitsuri Kanroji (甘かん露ろ寺じ 蜜みつ璃り Kanroji Mitsuri?) is a major supporting character of Demon Slayer: Kimetsu no Yaiba. She is a Demon Slayer of the Demon Slayer Corps and the current Love Hashira (恋こい柱ばしら Koi Bashira?).",
+        "title": "Immersive Tech Experience",
+        "text": "A project that leverages immersive technologies to create an engaging and interactive user environment.",
         "img": "yfc.jpeg",
-        "link":"https://kimetsu-no-yaiba.fandom.com/wiki/Mitsuri_Kanroji"
+        "link": "https://example.com/immersive-tech",
+        "tags": ["Immersive Technologies", "UI/UX Design"]
     },
     {
-        "title": "Zenitsu",
-        "text": "Zenitsu Agatsuma (我あが妻つま 善ぜん逸いつ Agatsuma Zen'itsu?) is one of the main characters of Demon Slayer: Kimetsu no Yaiba and along with Inosuke Hashibira, a travelling companion of Tanjiro Kamado and Nezuko Kamado.",
+        "title": "E-commerce Platform",
+        "text": "A robust e-commerce platform built with user-friendly features to enhance the shopping experience.",
         "img": "yfc.jpeg",
-        "link":"https://kimetsu-no-yaiba.fandom.com/wiki/Zenitsu_Agatsuma"
+        "link": "https://example.com/e-commerce-platform",
+        "tags": ["Web Development", "Mobile Development"]
     },
     {
-        "title": "Tanjiro",
-        "text": "Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō?) is the main protagonist of Demon Slayer: Kimetsu no Yaiba. He is a Demon Slayer in the Demon Slayer Corps",
+        "title": "AI Chatbot Development",
+        "text": "A smart chatbot solution that enhances customer engagement through intelligent conversations.",
         "img": "yfc.jpeg",
-        "link":"https://kimetsu-no-yaiba.fandom.com/wiki/Tanjiro_Kamado"
+        "link": "https://example.com/ai-chatbot",
+        "tags": ["Artificial Intelligence", "Web Development"]
     },
     {
-        "title": "Nezuko",
-        "text": "Nezuko Kamado (竈門かまど 禰ね豆ず子こ Kamado Nezuko?) is the deuteragonist of Demon Slayer: Kimetsu no Yaiba. She is a demon and the younger sister of Tanjiro Kamado and one of the two remaining members of the Kamado family.",
+        "title": "UI/UX Redesign Project",
+        "text": "A complete redesign of an existing application focusing on improving user experience and interface aesthetics.",
         "img": "yfc.jpeg",
-        "link":"https://kimetsu-no-yaiba.fandom.com/wiki/Nezuko_Kamado"
+        "link": "https://example.com/uiux-redesign",
+        "tags": ["UI/UX Design", "Web Development"]
     },
     {
-        "title": "Akaza",
-        "text": "Akaza (猗あ窩か座ざ Akaza?) is a major supporting antagonist of Demon Slayer: Kimetsu no Yaiba. He is a demon affiliated with the Twelve Kizuki, holding the third highest position, Upper Rank Three (上じょう弦げんの参さん Jōgen no San?)",
+        "title": "Augmented Reality App",
+        "text": "An augmented reality application that enhances real-world experiences through digital overlays.",
         "img": "yfc.jpeg",
-        "link":"https://kimetsu-no-yaiba.fandom.com/wiki/Akaza"
+        "link": "https://example.com/augmented-reality-app",
+        "tags": ["Immersive Technologies", "Mobile Development"]
     }
 ]

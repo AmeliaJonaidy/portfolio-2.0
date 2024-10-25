@@ -3,30 +3,31 @@
     margin: 12% auto; /* Center the container and add vertical margin */
     display: flex;
     flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
-    justify-content: space-between; /* Space cards evenly across the row */
+    justify-content: center; /* Center the cards */
 }
 
 .portfolio-card {
     background-color: #ffffff;
-    width: 250px; 
-    height: 490px; 
+    width: 320px; /* Adjusted width for better spacing */
+    height: 500px; /* Slightly increased height */
     color: #000000;
     border-radius: 1.5rem; 
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Deeper shadow for depth */
     transition: transform 0.3s, box-shadow 0.3s; /* Smooth scaling and shadow effect */
     margin: 15px; 
     display: flex; 
     flex-direction: column; 
+    overflow: hidden; /* Ensure content stays within borders */
 }
 
 .portfolio-card:hover {
-    transform: scale(1.1); /* Slightly enlarge the card on hover */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25); /* Enhanced shadow on hover */
 }
 
 .portfolio-image {
     width: 100%; /* Full width of the card */
-    height: 40%; 
+    height: 200px; /* Fixed height for better consistency */
     object-fit: cover; 
     border-top-left-radius: 1.5rem; 
     border-top-right-radius: 1.5rem; 
@@ -37,20 +38,22 @@
     flex-direction: column;
     justify-content: space-between; /* Space items between top and bottom */
     padding: 1rem; /* Add padding for content */
-    height: 40%; /* Remaining space for content */
+    height: calc(100% - 200px); /* Remaining space for content */
+    background-color: #f9f9f9; /* Light background for content area */
 }
 
 .portfolio-title {
-    font-size: 1.2rem; /* Adjust font size for the title */
+    font-size: 1.3rem; /* Larger font size for title */
     font-weight: bold;
     color: #0F1545; /* Emphasize title color */
     text-align: center; 
+    margin-bottom: 10px; /* Space below title */
 }
 
 .portfolio-text {
     text-align: center; /* Center the description */
-    font-size: 0.9rem; /* Slightly smaller font size for the description */
-    color: #333; /* Darker text for better readability */
+    font-size: 0.95rem; /* Slightly larger font size for the description */
+    color: #555; /* Softer color for better readability */
     margin: 0; /* Remove default margin */
 }
 
@@ -58,17 +61,46 @@
     background-color: #4B5882;
     color: white;
     font-size: 1rem; /* Standard font size for button */
-    padding: 0.5rem; /* Adjust padding */
+    padding: 0.6rem 1rem; /* Increased padding */
     border: none;
     border-radius: 1.5rem; /* Increased border radius for button */
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+    margin-top: 10px; /* Space above button */
 }
 
 .portfolio-button:hover {
-    background-color: #4338ca; /* Darker shade for hover effect */
+    background: linear-gradient(135deg, #0F1545, #202459);
     transform: scale(1.05); /* Slightly enlarge on hover */
 }
+
+
+.tags-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the tags */
+    margin: 20px auto; /* Center the navbar with auto margins */
+    padding: 10px; /* Add some padding inside the navbar */
+    border: 2px solid #4B5882; /* Border color */
+    border-radius: 8px; /* Rounded corners for the border */
+    border-color: whitesmoke;
+}
+
+.portfolio-tag {
+    margin: 5px; /* Adjust margin for better spacing */
+    padding: 5px 10px;
+    background-color: #4B5882;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.portfolio-tag.active {
+    background: linear-gradient(135deg, #0F1545, #202459);
+    color: white;
+}
+
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {

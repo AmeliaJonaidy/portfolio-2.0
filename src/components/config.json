@@ -1,22 +1,22 @@
 [
     {
         "title": "BeLeaf Mobile Application",
-        "text": "A comprehensive web application that utilizes modern frameworks and technologies to deliver a seamless user experience.",
-        "img": "yfc.jpeg",
+        "text": "My team and I created this app during the BrainHack 2024 Code_Exp Competition. Where we identified that a problem was many households who wants to recycle, are confused about what and how to recycle. Therefore we created an AI-powered image recognition for accurate sorting, to reduce contamination and promote responsible disposal.",
+        "img": "beleaf2.jpeg",
         "link": "/myportfolio/beleaf",
         "tags": ["Mobile Development", "Artificial Intelligence"]
     },
     {
         "title": "Career Xplorer",
-        "text": "An innovative mobile application designed to provide users with a unique experience using cutting-edge mobile technologies.",
-        "img": "yfc.jpeg",
+        "text": "My team and I created this website during the GovTech GeekOut 2024 Bootcamp. Where the problem statement we came up with is: How might we support Singaporean students in exploring their interests and developing their passions so that they are able to make informed choices for their future careers?",
+        "img": "career1.jpeg",
         "link": "/myportfolio/careerxplorer",
         "tags": ["Web Development", "Artificial Intelligence"]
     },
     {
         "title": "BotanyBazaar",
-        "text": "An artificial intelligence-based solution aimed at enhancing productivity through automation and intelligent insights.",
-        "img": "yfc.jpeg",
+        "text": "This website was done as a Graded Assignment Project. This would be an online store called BotanyBazaarSG. This online shop allows local farmers and planters to display and sell their plants for consumers to consume or purchase for aesthetic purposes. The online shop is open to anybody interested in selling, not only local suppliers.",
+        "img": "botany1.jpeg",
         "link": "/myportfolio/botanybazaar",
         "tags": ["Web Development"]
     },

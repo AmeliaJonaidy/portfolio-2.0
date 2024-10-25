@@ -58,7 +58,7 @@ function PortfolioLand() {
                                 variant="primary" 
                                 onClick={() => navigate(eachCard.link)}
                             >
-                                Info
+                                More Info
                             </Button>
                         </Card.Body>
                     </Card>

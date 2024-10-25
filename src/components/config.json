@@ -1,31 +1,31 @@
 [
     {
-        "title": "Web Development Project 1",
+        "title": "BeLeaf Mobile Application",
         "text": "A comprehensive web application that utilizes modern frameworks and technologies to deliver a seamless user experience.",
         "img": "yfc.jpeg",
-        "link": "https://example.com/web-development-project-1",
-        "tags": ["Web Development", "UI/UX Design"]
+        "link": "/myportfolio/beleaf",
+        "tags": ["Mobile Development", "Artificial Intelligence"]
     },
     {
-        "title": "Mobile Development App",
+        "title": "Career Xplorer",
         "text": "An innovative mobile application designed to provide users with a unique experience using cutting-edge mobile technologies.",
         "img": "yfc.jpeg",
-        "link": "https://example.com/mobile-development-app",
-        "tags": ["Mobile Development", "UI/UX Design"]
+        "link": "/myportfolio/careerxplorer",
+        "tags": ["Web Development", "Artificial Intelligence"]
     },
     {
-        "title": "AI-Powered Solution",
+        "title": "BotanyBazaar",
         "text": "An artificial intelligence-based solution aimed at enhancing productivity through automation and intelligent insights.",
         "img": "yfc.jpeg",
-        "link": "https://example.com/ai-solution",
-        "tags": ["Artificial Intelligence", "Web Development"]
+        "link": "/myportfolio/botanybazaar",
+        "tags": ["Web Development"]
     },
     {
         "title": "Immersive Tech Experience",
         "text": "A project that leverages immersive technologies to create an engaging and interactive user environment.",
         "img": "yfc.jpeg",
         "link": "https://example.com/immersive-tech",
-        "tags": ["Immersive Technologies", "UI/UX Design"]
+        "tags": ["Immersive Technologies", "Design"]
     },
     {
         "title": "E-commerce Platform",
@@ -46,7 +46,7 @@
         "text": "A complete redesign of an existing application focusing on improving user experience and interface aesthetics.",
         "img": "yfc.jpeg",
         "link": "https://example.com/uiux-redesign",
-        "tags": ["UI/UX Design", "Web Development"]
+        "tags": ["Web Development"]
     },
     {
         "title": "Augmented Reality App",

@@ -26,7 +26,7 @@ const BotanyDesc = () => {
         </ul>
 
         <h2 className="project-features-title">Target Audience</h2>
-        <p>The target audience includes local suppliers of fresh vegetables, fruits, and plants looking to sell to Singaporean consumers. Additionally, it caters to Singaporeans seeking a convenient one-stop website for purchasing these items.</p>
+        <p>The intended audience for this online web application is Singaporeans. Locals who wish to eat fresher vegetables and support local producers. It is also for local farmers who want to market their locally produced vegetables (such as BokChoy and Nai Bai), which are popular among locals. It's also for locals who enjoy buying plants for their own homes. It also allows hobbyists to sell their plants to others who enjoy plants. However, the primary target population is Singaporeans, local farmers and producers, and local hobbyists.</p>
 
         <h2 className="project-features-title">Challenges Faced</h2>
         <p>The most significant challenge I encountered was implementing the login feature for the website. It was crucial to distinguish between suppliers and buyers, as each group has different functionalities and permissions. Developing the backend to accommodate this differentiation proved to be challenging, and I faced numerous errors throughout the process. However, I ultimately succeeded in routing users to the appropriate page based on their login type. </p>

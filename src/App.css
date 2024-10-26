@@ -851,7 +851,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   .aboutcat-category {
-    font-size: 0.9rem; /* Slightly smaller font size */
+    font-size: 0.75rem; /* Slightly smaller font size */
   }
 
   .aboutcat-description {

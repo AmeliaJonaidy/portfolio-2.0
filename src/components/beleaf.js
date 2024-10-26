@@ -64,14 +64,15 @@ const BeleafDesc = () => {
         </div>
 
         <iframe
-          width="100%"
-          height="315"
-          src={require('../assets/img/beleafvid.mp4')}
-          title="Project Video"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          className="project-video"
-        ></iframe>
+        width="100%"
+        height="315"
+        src="https://www.youtube.com/embed/iVGHMjnY-wQ"  // Updated to embed URL
+        title="Project Video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        className="project-video"
+      ></iframe>
+
 
         <div className="back-to-portfolio">
           <Link to="/myportfolio" className="back-link">Back to Other Portfolio Projects</Link>

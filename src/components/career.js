@@ -61,7 +61,7 @@ const CareerDesc = () => {
         <iframe
         width="100%"
         height="315"
-        src="https://www.youtube.com/embed/edPVC8S88mw"  // Change this line
+        src="https://www.youtube.com/embed/edPVC8S88mw"  
         title="CareerXplorer Video"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen

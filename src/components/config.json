@@ -33,5 +33,12 @@
         "img": "designGA1.jpeg",
         "link": "/myportfolio/stickernamecard",
         "tags": ["Design"]
+    },
+    {
+        "title": "Amelia's Blog Site",
+        "text": "This project is yet to be finished, but it is here..for now",
+        "img": "designGA1.jpeg",
+        "link": "/myportfolio/blogsite",
+        "tags": ["Web Development","Design"]
     }
 ]

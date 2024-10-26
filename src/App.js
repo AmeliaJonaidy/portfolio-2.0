@@ -5,6 +5,7 @@ import Home from './Home';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Volunteer from './Volunteer';
+import Activities from './InterestGroup';
 import BeleafDesc from './components/beleaf';
 import CareerDesc from './components/career';
 import BotanyDesc from './components/botany';
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/aboutme/volunteer" element={<Volunteer />} />
+          <Route path="/aboutme/activities" element={<Activities/>}/>
           <Route path="/myportfolio" element={<Portfolio/>}/>
           <Route path="/myportfolio/beleaf" element={<BeleafDesc/>}/>
           <Route path="/myportfolio/careerxplorer" element={<CareerDesc/>}/>

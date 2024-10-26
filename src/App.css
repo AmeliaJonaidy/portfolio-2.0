@@ -806,7 +806,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .aboutcat-image {
   height: 9rem; /* Adjust image height */
-  width: 9em; /* Adjust image width */
+  width: 9rem; /* Adjust image width */
   border-radius: 60%;
 }
 

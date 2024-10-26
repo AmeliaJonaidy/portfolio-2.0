@@ -39,6 +39,10 @@ const BotanyDesc = () => {
 
         <h2 className="project-features-title">Future Improvements</h2>
         <p>A feature I would like to implement is enabling users to make actual purchases, rather than just presenting a supplier database with item quantities and details. I want to incorporate a complete payment process that includes managing inventory, applying discount codes, and handling quantity adjustments during checkout.</p>
+        <p>Automated Email Reply: I believe this would be great since we would be able to receive an automated response after the customer has successfully purchased the local vegetables or plants. This is because it can be used to establish credibility with the customer and as proof of payment. This would establish accountability between local producers and customers. With this level of credibility, the website can make a better impression on others because it is perceived as more trustworthy.  </p>
+        <p>Report Button: This added function is critical so that posts that are reported, regardless of whether they are inappropriate or not, can be temporarily removed for moderators to filter. This ensures that everyone on the internet has access to a safe conversation space.
+
+</p>
 
         <div className="media-section">
         <img 

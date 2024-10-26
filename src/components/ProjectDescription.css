@@ -22,9 +22,8 @@
     font-weight: bold; 
 }
 
-
 .project-summary {
-    font-size: 1.1 rem;
+    font-size: 1.1rem; /* Fixed typo from 1.1 rem to 1.1rem */
     color: #ffffff; /* Standard light text color for better readability */
     margin-bottom: 20px;
     text-align: center;
@@ -56,6 +55,7 @@
     justify-content: space-around; /* Space images evenly */
     align-items: center; /* Center images vertically */
     margin-bottom: 20px; /* Space below media section */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 .project-image {
@@ -86,4 +86,44 @@
 
 .back-link:hover {
     text-decoration: underline; /* Underline on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .project-title {
+        font-size: 2em; /* Smaller title on medium screens */
+    }
+
+    .project-summary {
+        font-size: 1rem; /* Smaller summary text */
+    }
+
+    .project-features-title {
+        font-size: 1.25em; /* Smaller section title */
+    }
+
+    .media-section {
+        flex-direction: column; /* Stack images on smaller screens */
+        align-items: center; /* Center images */
+    }
+
+    .project-image {
+        width: 80%; /* Make images take up more width */
+        max-width: none; /* Remove max-width for responsiveness */
+        margin: 10px 0; /* Space between stacked images */
+    }
+
+    .project-video {
+        max-width: 100%; /* Full width for video on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .project-title {
+        font-size: 1.75em; /* Smaller title for extra small screens */
+    }
+
+    .project-summary {
+        font-size: 0.9rem; /* Adjust summary text size */
+    }
 }

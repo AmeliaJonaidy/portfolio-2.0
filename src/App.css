@@ -854,3 +854,55 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   min-height: 100vh; /* Ensure it covers the full height */
   padding: 20px; /* Optional: Add padding for spacing */
 }
+
+/* Volunteer Css */
+
+.volunteerabout .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(135deg, #0F1545, #202459);
+  font-size: 20px;
+  margin-top: 120px;
+  display: inline-block;
+}
+
+.volunteerabout h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-top: 10px;
+  display: block;
+}
+
+.volunteerabout p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+  margin-top: 30px;
+}
+
+
+.volunteerabout img {
+  animation: updown 3s linear infinite;
+  margin-top: 120px;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}

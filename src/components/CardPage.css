@@ -1,6 +1,6 @@
 .portfolio-land {
     max-width: 98%; /* Set a max width for better responsiveness */
-    margin: 12% auto; /* Center the container and add vertical margin */
+    margin: 12% 3%; /* Center the container and add vertical margin */
     display: flex;
     flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
     justify-content: center; /* Center the cards */
@@ -21,7 +21,7 @@
 }
 
 .portfolio-card:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
+    transform: translateY(-20px); /* Lift effect on hover */
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25); /* Enhanced shadow on hover */
 }
 

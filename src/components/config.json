@@ -21,38 +21,17 @@
         "tags": ["Web Development"]
     },
     {
-        "title": "Immersive Tech Experience",
-        "text": "A project that leverages immersive technologies to create an engaging and interactive user environment.",
-        "img": "yfc.jpeg",
-        "link": "https://example.com/immersive-tech",
+        "title": "The Lost Researcher: Escape Back to Earth ",
+        "text": "This VR Game was done as a Graded Assignment Project. In this VR escape room game, players are immersed in a randomly generated parallel universe, where they must solve puzzles to escape. After navigating three distinct universes, they ultimately break free and return to Earth. ",
+        "img": "vr1.jpeg",
+        "link": "/myportfolio/lostresearcher",
         "tags": ["Immersive Technologies", "Design"]
     },
     {
-        "title": "E-commerce Platform",
-        "text": "A robust e-commerce platform built with user-friendly features to enhance the shopping experience.",
-        "img": "yfc.jpeg",
-        "link": "https://example.com/e-commerce-platform",
-        "tags": ["Web Development", "Mobile Development"]
-    },
-    {
-        "title": "AI Chatbot Development",
-        "text": "A smart chatbot solution that enhances customer engagement through intelligent conversations.",
-        "img": "yfc.jpeg",
-        "link": "https://example.com/ai-chatbot",
-        "tags": ["Artificial Intelligence", "Web Development"]
-    },
-    {
-        "title": "UI/UX Redesign Project",
-        "text": "A complete redesign of an existing application focusing on improving user experience and interface aesthetics.",
-        "img": "yfc.jpeg",
-        "link": "https://example.com/uiux-redesign",
-        "tags": ["Web Development"]
-    },
-    {
-        "title": "Augmented Reality App",
-        "text": "An augmented reality application that enhances real-world experiences through digital overlays.",
-        "img": "yfc.jpeg",
-        "link": "https://example.com/augmented-reality-app",
-        "tags": ["Immersive Technologies", "Mobile Development"]
+        "title": "Personalised Designed Stickers and Name Card",
+        "text": "This is two design project that I did for my Graded Assignment Project. The first one is a sticker, while the second is a name card design. Both designs have the identity of a Christian Developer, and I incorporate designs that represent both identity in my faith and my work as a developer. ",
+        "img": "designGA1.jpeg",
+        "link": "/myportfolio/stickernamecard",
+        "tags": ["Design"]
     }
 ]

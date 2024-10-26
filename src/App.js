@@ -7,6 +7,7 @@ import Volunteer from './components/landingvolunteer';
 import Portfolio from './Portfolio';
 import BeleafDesc from './components/beleaf';
 import CareerDesc from './components/career';
+import BotanyDesc from './components/botany';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/myportfolio" element={<Portfolio/>}/>
           <Route path="/myportfolio/beleaf" element={<BeleafDesc/>}/>
           <Route path="/myportfolio/careerxplorer" element={<CareerDesc/>}/>
+          <Route path="/myportfolio/botanybazaar" element={<BotanyDesc/>}/>
         </Routes>
       </div>
     </Router>

@@ -2,7 +2,7 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import PortfolioLand from './components/portfoliolanding';
-import BeleafDesc from './components/beleaf';
+import { Footer } from "./components/Footer";
 
 
 function Portfolio() {
@@ -12,6 +12,7 @@ function Portfolio() {
         <div className='page-wrapper'>
         <PortfolioLand/>
       </div>
+      <Footer/>
     </div>
   );
 }

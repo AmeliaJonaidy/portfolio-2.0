@@ -6,6 +6,7 @@ import AboutMe from './AboutMe';
 import Volunteer from './components/landingvolunteer';
 import Portfolio from './Portfolio';
 import BeleafDesc from './components/beleaf';
+import CareerDesc from './components/career';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/aboutme/volunteer" element={<Volunteer />} />
           <Route path="/myportfolio" element={<Portfolio/>}/>
           <Route path="/myportfolio/beleaf" element={<BeleafDesc/>}/>
+          <Route path="/myportfolio/careerxplorer" element={<CareerDesc/>}/>
         </Routes>
       </div>
     </Router>

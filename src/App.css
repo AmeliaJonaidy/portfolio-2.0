@@ -844,6 +844,49 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: linear-gradient(135deg, #0F1545, #202459);
 }
 
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .aboutcat-card {
+    height: 400px; /* Adjust card height for medium screens */
+  }
+
+  .aboutcat-category {
+    font-size: 0.9rem; /* Slightly smaller font size */
+  }
+
+  .aboutcat-description {
+    font-size: 0.95rem; /* Slightly smaller font size */
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutcat-card {
+    height: auto; /* Allow flexible height */
+    width: calc(50% - 20px); /* Two cards per row */
+  }
+
+  .aboutcat-header {
+    height: 8rem; /* Adjust header height */
+  }
+}
+
+@media (max-width: 576px) {
+  .aboutcat-card {
+    width: 100%; /* Full width on small screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .aboutcat-header {
+    height: 6rem; /* Further adjust header height */
+  }
+
+  .aboutcat-image {
+    height: 5rem; /* Adjust image size for smaller screens */
+    width: 5rem; /* Adjust image size for smaller screens */
+  }
+}
+
+
 /* Custom style for slick slider */
 .slick-slide > div {
   margin: 0 10px; /* Add margin between slides */

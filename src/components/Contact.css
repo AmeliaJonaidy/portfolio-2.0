@@ -1,0 +1,35 @@
+.alert {
+    position: fixed; /* Change to fixed for consistent positioning */
+    bottom: 20px; /* Position from the bottom */
+    right: 20px; /* Position from the right */
+    background-color: white;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    animation: fadeIn 0.5s;
+}
+
+.success {
+    border-color: green;
+    color: green;
+}
+
+.danger {
+    border-color: red;
+    color: red;
+}
+
+.close-alert {
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

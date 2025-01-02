@@ -7,6 +7,7 @@ import Portfolio from './Portfolio';
 import Volunteer from './Volunteer';
 import Activities from './InterestGroup';
 import Competitions from './Competition';
+import Certs from './Certification';
 import Awards from './Awards';
 import BeleafDesc from './components/beleaf';
 import CareerDesc from './components/career';
@@ -23,6 +24,7 @@ function App() {
           <Route path="/aboutme/volunteer" element={<Volunteer />} />
           <Route path="/aboutme/activities" element={<Activities/>}/>
           <Route path="/aboutme/competitions" element={<Competitions/>}/>
+          <Route path="/aboutme/certifications" element={<Certs/>}/>
           <Route path="/aboutme/awards" element={<Awards/>}/>
           <Route path="/myportfolio" element={<Portfolio/>}/>
           <Route path="/myportfolio/beleaf" element={<BeleafDesc/>}/>

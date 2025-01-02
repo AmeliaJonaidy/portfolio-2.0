@@ -4,6 +4,7 @@ import comp from "../assets/img/comp.jpeg";
 import Slider from "react-slick";
 import hackstart from "../assets/img/hackstart.jpeg";
 import yfc from "../assets/img/yfc.jpeg";
+import pcep from "../assets/img/pcep.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../App.css'; // Import the CSS file
@@ -38,6 +39,20 @@ const AboutCat = () => {
 
                 <div className="aboutcat-card">
                     <div className="aboutcat-header">
+                        <img src={comp} alt="Competitions" className="aboutcat-image" />
+                    </div>
+                    <div className="aboutcat-content">
+                        <p className="aboutcat-category">Competitions</p>
+                        <p className="aboutcat-description">
+                            Competitions provide valuable opportunities for growth, allowing participants (like me!) to enhance their knowledge and experience. 
+                            They also foster connections with students from various schools, all united by common goals and interests.
+                        </p>
+                        <button className= "aboutcat-button" onClick={() => navigate('/aboutme/competitions')}> Read More </button>
+                    </div>
+                </div>
+
+                <div className="aboutcat-card">
+                    <div className="aboutcat-header">
                         <img src={hackstart} alt="Interest Group/Project/Activities" className="aboutcat-image" />
                     </div>
                     <div className="aboutcat-content">
@@ -49,18 +64,16 @@ const AboutCat = () => {
                         <button className= "aboutcat-button" onClick={() => navigate('/aboutme/activities')}> Read More </button>
                     </div>
                 </div>
-
                 <div className="aboutcat-card">
                     <div className="aboutcat-header">
-                        <img src={comp} alt="Competitions" className="aboutcat-image" />
+                        <img src={pcep} alt="Certifications" className="aboutcat-image" />
                     </div>
                     <div className="aboutcat-content">
-                        <p className="aboutcat-category">Competitions</p>
+                        <p className="aboutcat-category">Certifications</p>
                         <p className="aboutcat-description">
-                            Competitions provide valuable opportunities for growth, allowing participants (like me!) to enhance their knowledge and experience. 
-                            They also foster connections with students from various schools, all united by common goals and interests.
+                        Throughout my time in the Diploma program, I've had the opportunity to earn various certifications, including the PCEP - Entry-Level Python Programmer Certificate, as well as courses from platforms like LinkedIn Learning, DataCamp, and others.
                         </p>
-                        <button className= "aboutcat-button" onClick={() => navigate('/aboutme/competitions')}> Read More </button>
+                        <button className= "aboutcat-button" onClick={() => navigate('/aboutme/certifications')}> Read More </button>
                     </div>
                 </div>
 
@@ -76,6 +89,8 @@ const AboutCat = () => {
                         </p>
                         <button className= "aboutcat-button" onClick={() => navigate('/aboutme/awards')}> Read More </button>
                     </div>
+
+                    
                 </div>
             </Slider>
         </div>

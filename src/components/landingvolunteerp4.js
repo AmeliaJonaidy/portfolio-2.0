@@ -16,9 +16,10 @@ export const Volunteerp4 = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Republic Polytechnic 2024 Open House Student Ambassador</span>
+                <span className="tagline">Republic Polytechnic 2024 and 2025 Open House Student Ambassador</span>
                 <p>In 2024, I had the opportunity to be an Open House Student Ambassador, where I brought secondary students around RP, allowing them to see and be brought around to the different schools and diploma booth so that they can find out more about their interests and what the different diplomas in RP have to offer them. </p>
                 <p>I also had the opportunity to engage in talks with some of the students in order to better understand their interests, and I attempted to share what I knew to the best of my ability in the hopes of impacting their decision-making.</p>
+                <p>In 2025, I had the opportunity to represent my diploma at the Open House, where I managed a booth and engaged with secondary school students. I shared insights into the details of my diploma and showcased a variety of projects created by students from different cohorts.</p>
                 <button onClick={() => navigate('/aboutme')}> Back to About Me <ArrowRightCircle size={25} />
                 </button>
               </div>}
@@ -32,9 +33,9 @@ export const Volunteerp4 = () => {
                     src={OH1} 
                     alt="worldskills Img" 
                     style={{ 
-                      width: '400px', // Adjust width as needed
-                      height: '270px', // Adjust height as needed
-                      objectFit: 'cover' // Ensures the image covers the area without distortion
+                      width: '400px', 
+                      height: '270px', 
+                      objectFit: 'cover' 
                     }} 
                   />
                 </div>}

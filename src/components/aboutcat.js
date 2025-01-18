@@ -4,7 +4,7 @@ import comp from "../assets/img/comp.jpeg";
 import Slider from "react-slick";
 import hackstart from "../assets/img/hackstart.jpeg";
 import yfc from "../assets/img/yfc.jpeg";
-import pcep from "../assets/img/pcep.png";
+import cert from "../assets/img/cert.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../App.css'; // Import the CSS file
@@ -25,7 +25,12 @@ const AboutCat = () => {
             <Slider {...settings}>
                 <div className="aboutcat-card">
                     <div className="aboutcat-header">
-                        <img src={yfc} alt="Volunteering Experiences" className="aboutcat-image" />
+                    <img 
+                        src={yfc} 
+                        alt="Volunteering Experiences" 
+                        className="aboutcat-image" 
+                        style={{ height: '10rem', width: '9rem' }} 
+/>
                     </div>
                     <div className="aboutcat-content">
                         <p className="aboutcat-category">Volunteering Experiences</p>
@@ -66,7 +71,7 @@ const AboutCat = () => {
                 </div>
                 <div className="aboutcat-card">
                     <div className="aboutcat-header">
-                        <img src={pcep} alt="Certifications" className="aboutcat-image" />
+                        <img src={cert} alt="Certifications" className="aboutcat-image" />
                     </div>
                     <div className="aboutcat-content">
                         <p className="aboutcat-category">Certifications</p>
@@ -79,7 +84,7 @@ const AboutCat = () => {
 
                 <div className="aboutcat-card">
                     <div className="aboutcat-header">
-                        <img src={trophy} alt="Awards and Scholarship" className="aboutcat-image" />
+                        <img src={trophy} alt="Awards and Scholarship"  style={{ height: '10rem', width: '9rem' }} />
                     </div>
                     <div className="aboutcat-content">
                         <p className="aboutcat-category">Awards and Scholarship</p>

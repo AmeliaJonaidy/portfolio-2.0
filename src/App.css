@@ -785,19 +785,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: #ffffff;
   height: 450px;
   color: #000000;
-  border-radius: 2rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  transition: transform 0.3s; /* Smooth scaling effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
 }
 
 .aboutcat-card:hover {
-  transform: scale(1.02); /* Slightly enlarge the card on hover */
+  transform: scale(1.02);
 }
 
 .aboutcat-header {
-  height: 10rem; /* Adjust height for header */
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  height: 10rem;
   background: linear-gradient(135deg, #0F1545, #202459);
   display: flex;
   justify-content: center;
@@ -805,9 +802,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .aboutcat-image {
-  height: 9rem; /* Adjust image height */
-  width: 9rem; /* Adjust image width */
-  border-radius: 60%;
+  height: 10rem;
+  width: 12rem;
 }
 
 .aboutcat-content {
@@ -815,88 +811,85 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px; /* Space between items */
-  padding: 1rem; /* Add padding for content */
+  gap: 10px;
+  padding: 1rem;
 }
 
 .aboutcat-category {
-  font-size: 1.25rem; /* Larger font for category */
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
 .aboutcat-description {
-  text-align: center; /* Center the description */
+  text-align: center;
   font-size: 1rem;
 }
 
 .aboutcat-button {
   background-color: #4B5882;
   color: white;
-  font-size: 1.15rem; /* Slightly larger font size */
-  padding: 0.5rem 1.5rem; /* Adjust padding */
+  font-size: 1.15rem;
+  padding: 0.5rem 1.5rem;
   border: none;
-  border-radius: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s; /* Smooth transition */
+  transition: background-color 0.3s;
 }
 
 .aboutcat-button:hover {
   background: linear-gradient(135deg, #0F1545, #202459);
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 1024px) {
   .aboutcat-card {
-    height: 400px; /* Adjust card height for medium screens */
+    height: 400px;
   }
 
   .aboutcat-category {
-    font-size: 0.75rem; /* Slightly smaller font size */
+    font-size: 0.75rem;
   }
 
   .aboutcat-description {
-    font-size: 0.95rem; /* Slightly smaller font size */
+    font-size: 0.95rem;
   }
 }
 
 @media (max-width: 768px) {
   .aboutcat-card {
-    height: auto; /* Allow flexible height */
-    width: calc(50% - 20px); /* Two cards per row */
+    height: auto;
+    width: calc(50% - 20px);
   }
 
   .aboutcat-header {
-    height: 8rem; /* Adjust header height */
+    height: 8rem;
   }
 }
 
 @media (max-width: 576px) {
   .aboutcat-card {
-    width: 100%; /* Full width on small screens */
-    height: auto; /* Allow height to adjust based on content */
+    width: 100%;
+    height: auto;
   }
 
   .aboutcat-header {
-    height: 6rem; /* Further adjust header height */
+    height: 6rem;
   }
 
   .aboutcat-image {
-    height: 5rem; /* Adjust image size for smaller screens */
-    width: 5rem; /* Adjust image size for smaller screens */
+    height: 5rem;
+    width: 5rem;
   }
 }
 
-
-/* Custom style for slick slider */
 .slick-slide > div {
-  margin: 0 10px; /* Add margin between slides */
+  margin: 0 10px;
 }
 
 .page-wrapper {
   background-color: #4B5882;
-  min-height: 100vh; /* Ensure it covers the full height */
-  padding: 20px; /* Optional: Add padding for spacing */
+  min-height: 100vh;
+  padding: 20px;
 }
+
 
 /* Volunteer Css */
 

@@ -69,7 +69,7 @@ const BeleafDesc = () => {
         <iframe
         width="100%"
         height="315"
-        src="https://www.youtube.com/embed/iVGHMjnY-wQ"  // Updated to embed URL
+        src="https://www.youtube.com/embed/iVGHMjnY-wQ"  
         title="Project Video"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen

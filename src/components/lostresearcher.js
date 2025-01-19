@@ -49,14 +49,19 @@ const LostResearcher = () => {
 
         <div className="media-section">
         <img 
-            src={require('../assets/img/botany2.jpeg')}
-            alt="botany1" 
-            style={{ width: '320px', height: 'auto' }} 
+            src={require('../assets/img/immersive3.png')}
+            alt="immersive1" 
+            style={{ width: '700px', height: 'auto' }} 
+            />
+                <img 
+            src={require('../assets/img/immersive1.png')}
+            alt="immersive1" 
+            style={{ width: '700px', height: 'auto' }} 
             />
         <img 
-            src={require('../assets/img/botany3.jpeg')}
-            alt="botany2" 
-            style={{ width: '400px', height: 'auto' }} 
+            src={require('../assets/img/immersive2.png')}
+            alt="immersive2" 
+            style={{ width: '700px', height: 'auto' }} 
             />
 
         </div>
@@ -64,8 +69,8 @@ const LostResearcher = () => {
         <iframe
         width="100%"
         height="315"
-        src="https://www.youtube.com/embed/kICxaANJ2nM"  
-        title="CareerXplorer Video"
+        src="https://www.youtube.com/embed/SZPw69nsuFc"
+        title="The Lost Researcher Video"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         className="project-video"

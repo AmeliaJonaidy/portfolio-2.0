@@ -9,25 +9,25 @@ function PortfolioLand() {
     const navigate = useNavigate();
     const cardArr = config;
 
-    // State to manage the selected tag
+
     const [selectedTag, setSelectedTag] = useState(null);
 
-    // Function to handle tag selection
+
     const handleTagClick = (tag) => {
-        setSelectedTag(tag === selectedTag ? null : tag); // Toggle the tag
+        setSelectedTag(tag === selectedTag ? null : tag); 
     };
 
-    // Filter cards based on the selected tag
+
     const filteredCards = selectedTag
         ? cardArr.filter(card => card.tags.includes(selectedTag))
         : cardArr;
 
-    // Get unique tags for the navbar
+
     const uniqueTags = [...new Set(cardArr.flatMap(card => card.tags))];
 
     return (
         <div className='portfolio-land'>
-            {/* Tags Navigation Bar */}
+
             <div className="tags-navbar">
                 {uniqueTags.map((tag, index) => (
                     <span 

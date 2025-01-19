@@ -44,6 +44,9 @@ const BotanyDesc = () => {
 
 </p>
 
+        <h2 className="project-features-title">Role in the Project</h2>
+        <p>Developed the entire website: Both the Frontend and Backend</p>
+
         <div className="media-section">
         <img 
             src={require('../assets/img/botany2.jpeg')}

@@ -32,7 +32,7 @@ const BeleafDesc = () => {
         <h2 className="project-features-title">Challenges Faced</h2>
         <p>As a team, I believe one of our biggest obstacles is that this is our first competition. Most of us had no prior experience with Amazon Web Services or its tools, and we also had no knowledge of how to develop in React and React Native. We also didn't realize the difference between React and React Native at first, which caused us to make mistakes and rework several aspects of the program to make it mobile-friendly.</p>
         <p>As an individual, I believe one of the most difficult challenges was attempting to get the AI Rekognition System to operate; I was in charge of this component, and I had no idea how to utilize AI Rekognition, how to set it up, or what to code at the back end of the mobile application. Thankfully, I was able to overcome these problems by reading up on many of the resources available online, watching YouTube videos, and a lot of trial and error. I also had a technical mentor during the competition who helped me understand how to use the Amazon Rekognition System more effectively.</p>
-        <p>As the team leader, I suppose another challenge I had was the deadline. Because this was the first competition, the deadline was fairly shocking to everyone, attempting to finish as many tasks as possible in so little time while also receiving comments and improving on them. I believe the challenge was trying to manage the workload in general. However, everything went well, and it became a very unforgettable experience. </p>
+        <p>As the team leader, I suppose another challenge I had was the deadline. Because this was the first competition, the deadline was fairly shocking to everyone, attempting to finish as many tasks as possible in so little time while also receiving comments and improving on them. I believe the challenge was trying to manage the workload in general. However, everything went well, and it became a very unforgettable experience. </p>
 
         <h2 className="project-features-title">Learning Outcomes</h2>
         <ul className="project-features-list">
@@ -44,6 +44,9 @@ const BeleafDesc = () => {
         <h2 className="project-features-title">Future Improvements</h2>
         <p>We plan to have a community feature which allows people to share their recycling stories online through posts, stories, and comments. The rationale is so that it can increase user involvement with others by fostering conversation (e.g., giving suggestions, providing support), which encourages regular use. </p>
         <p>A Streak Tracker which encourages users to interact with the app by monitoring days of completed activity and rewarding users who maintain a consistent streak. This would be effective for competitive users, those seeking incentives, and those promoting environmental responsibility as it serves as a motivator for completing tasks </p>
+
+        <h2 className="project-features-title">Role in the Project</h2>
+        <p>Team Leader, AWS AI Rekognition System Implementation [Ensuring Optimal Functionality of the Recyclables Scanner]</p>
 
         <div className="media-section">
           <img 

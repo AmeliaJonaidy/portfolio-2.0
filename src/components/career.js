@@ -44,6 +44,9 @@ const CareerDesc = () => {
         <p>One future upgrade we'd want to make is to add real-time web scrapping. This is to ensure that the information we provide to users is still relevant and not out of date.</p>
         <p>Personally, I believe one potential change I might do would be to ensure that users have access to suitable mentors with whom they may speak to learn more about their industry.</p>
 
+        <h2 className="project-features-title">Role in the Project</h2>
+        <p>Developed the Frontend of the website using React</p>
+
         <div className="media-section">
         <img 
             src={require('../assets/img/career2.jpeg')}

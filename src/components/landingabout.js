@@ -41,7 +41,7 @@ const LandingAbout = () => {
                 <span className="tagline">About Me</span>
                   <p>Collaboration with like-minded individuals energizes me, as it facilitates the exchange of ideas and enhances our understanding of our respective fields. My curiosity about technology has sparked a particular interest in Artificial Intelligence. At the same time, I am exploring how software development can create positive change in the world and support various communities.</p>
                   <p>I am dedicated to discovering and creating innovative solutions that leverage technology for the better!</p>
-                  <p>Click here to view my resume: <a href={resume} target="_blank" rel="noopener noreferrer" className="resumelink">My Resume</a></p>
+                  <p>Click here to view my resume: <a href={resume} target="_blank" rel="noopener noreferrer" className="resumelinks">My Resume</a></p>
               </div>}
             </TrackVisibility>
           </Col>

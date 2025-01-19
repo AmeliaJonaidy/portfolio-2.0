@@ -71,7 +71,7 @@ export const AwardsP1 = () => {
                 </p>
 
                 <p>A*STAR Science Award (Polytechnic)<br/>
-                  View Certificate: <a href={direct3} target="_blank" rel="noopener noreferrer" className="awards-links">A*STAR Science Award Certificate</a><br/>
+                  View Certificate: <a href={award1} target="_blank" rel="noopener noreferrer" className="awards-links">A*STAR Science Award Certificate</a><br/>
                 </p>
 
                 <button onClick={() => navigate('/aboutme')}> Back to About Me <ArrowRightCircle size={25} />

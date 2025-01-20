@@ -43,22 +43,22 @@
     },
     {
         "title": "Travel List Web App",
-        "text": "This app was recently completed as part of my Continuous Assignment C219 Project.",
+        "text": "This app was recently completed as part of my Continuous Assignment C219 Project. It is a travel list app that allows users to add items they want to pack, as well as set the quantity for each item. The app will then display how many items have already been packed based on the number of items marked as completed.",
         "img": "travelapp.png",
         "link": "/myportfolio/travelapp",
         "tags": ["Web Development"]
     },
     {
         "title": "Focus Crew High Fidelity Wireframe",
-        "text": "Later continue...",
-        "img": "travelapp.png",
+        "text": "This wireframe was completed as part of my Continuous Assignment C218 Project. It is for a study mentorship app, where students or individuals who want to learn can book peers to study with or mentors for consulting, based on the topics they need help with. ",
+        "img": "focus.png",
         "link": "/myportfolio/focuscrew",
         "tags": ["Design"]
     },
     {
         "title": "StyleShop UI Kit and High Fidelity Wireframe",
-        "text": "Later continue...",
-        "img": "travelapp.png",
+        "text": "StyleShop is a wireframe I created as part of the Continuous Assignment Requirement for C218, where we learned how to create a UI kit and apply it to our wireframe. StyleShop is an e-commerce platform that sells clothing, shoes, and other items. ",
+        "img": "style.png",
         "link": "/myportfolio/focuscrew",
         "tags": ["Design"]
     }

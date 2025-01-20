@@ -35,10 +35,31 @@
         "tags": ["Design"]
     },
     {
-        "title": "Amelia's Blog Site",
-        "text": "This project is yet to be finished, but it is here..for now",
-        "img": "designGA1.jpeg",
-        "link": "/myportfolio/blogsite",
-        "tags": ["Web Development","Design"]
+        "title": "Journal Mobile App",
+        "text": "This app was recently completed as part of my Continuous Assignment C346 Project. I chose to create a journal app because journaling is something that is very meaningful to me. I enjoy recording my feelings and reflecting on the different memories I've had.",
+        "img": "journalapp.png",
+        "link": "/myportfolio/journalapp",
+        "tags": ["Mobile Development"]
+    },
+    {
+        "title": "Travel List Web App",
+        "text": "This app was recently completed as part of my Continuous Assignment C219 Project.",
+        "img": "travelapp.png",
+        "link": "/myportfolio/travelapp",
+        "tags": ["Web Development"]
+    },
+    {
+        "title": "Focus Crew High Fidelity Wireframe",
+        "text": "Later continue...",
+        "img": "travelapp.png",
+        "link": "/myportfolio/focuscrew",
+        "tags": ["Design"]
+    },
+    {
+        "title": "StyleShop UI Kit and High Fidelity Wireframe",
+        "text": "Later continue...",
+        "img": "travelapp.png",
+        "link": "/myportfolio/focuscrew",
+        "tags": ["Design"]
     }
 ]

@@ -118,6 +118,19 @@
     }
 }
 
+.links {
+    color: rgb(104, 174, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s;
+  }
+  
+  .links:hover {
+    color: rgb(22, 133, 250);
+    text-decoration: underline;
+  }
+
+  
 @media (max-width: 576px) {
     .project-title {
         font-size: 1.75em; /* Smaller title for extra small screens */

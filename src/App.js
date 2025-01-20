@@ -13,6 +13,7 @@ import BeleafDesc from './components/beleaf';
 import CareerDesc from './components/career';
 import BotanyDesc from './components/botany';
 import LostResearcher from './components/lostresearcher';
+import StickerCard from './components/stickercard';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/myportfolio/careerxplorer" element={<CareerDesc/>}/>
           <Route path="/myportfolio/botanybazaar" element={<BotanyDesc/>}/>
           <Route path="/myportfolio/lostresearcher" element={<LostResearcher/>}/>
+          <Route path="/myportfolio/stickernamecard" element={<StickerCard/>}/>
         </Routes>
       </div>
     </Router>

@@ -14,7 +14,13 @@ import CareerDesc from './components/career';
 import BotanyDesc from './components/botany';
 import LostResearcher from './components/lostresearcher';
 import StickerCard from './components/stickercard';
+import BookList from './components/booklist';
+import Focuscrew from './components/focuscrew';
+import Journal from './components/journalapp';
+import StyleShop from './components/styleshop';
+import TravelList from './components/travellist';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Book } from 'react-bootstrap-icons';
 
 function App() {
   return (
@@ -34,6 +40,11 @@ function App() {
           <Route path="/myportfolio/botanybazaar" element={<BotanyDesc/>}/>
           <Route path="/myportfolio/lostresearcher" element={<LostResearcher/>}/>
           <Route path="/myportfolio/stickernamecard" element={<StickerCard/>}/>
+          <Route path="/myportfolio/booklistapp" element={<BookList/>}/>
+          <Route path="/myportfolio/journalapp" element={<Journal/>}/>
+          <Route path="/myportfolio/travelapp" element={<TravelList/>}/>
+          <Route path="/myportfolio/focuscrew" element={<Focuscrew/>}/>
+          <Route path="/myportfolio/styleshop" element={<StyleShop/>}/>
         </Routes>
       </div>
     </Router>

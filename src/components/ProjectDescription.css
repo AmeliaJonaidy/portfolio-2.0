@@ -26,7 +26,7 @@
     font-size: 1.1rem; /* Fixed typo from 1.1 rem to 1.1rem */
     color: #ffffff; /* Standard light text color for better readability */
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .project-features-title {

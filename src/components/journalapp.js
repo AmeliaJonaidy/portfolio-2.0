@@ -13,7 +13,7 @@ const Journal = () => {
         </p>
         
         <h2 className="project-features-title">Technologies Used</h2>
-        <p>React Native, CSS, </p>
+        <p>React Native, CSS</p>
 
         <h2 className="project-features-title">Features</h2>
         <ul className="project-features-list">

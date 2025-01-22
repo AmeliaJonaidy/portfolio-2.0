@@ -19,6 +19,7 @@ import Focuscrew from './components/focuscrew';
 import Journal from './components/journalapp';
 import StyleShop from './components/styleshop';
 import TravelList from './components/travellist';
+import Disney from './components/disney';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Book } from 'react-bootstrap-icons';
 
@@ -45,6 +46,7 @@ function App() {
           <Route path="/myportfolio/travelapp" element={<TravelList/>}/>
           <Route path="/myportfolio/focuscrew" element={<Focuscrew/>}/>
           <Route path="/myportfolio/styleshop" element={<StyleShop/>}/>
+          <Route path="/myportfolio/disney" element={<Disney/>}/>
         </Routes>
       </div>
     </Router>

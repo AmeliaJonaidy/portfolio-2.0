@@ -29,7 +29,7 @@ const AboutCat = () => {
                         src={yfc} 
                         alt="Volunteering Experiences" 
                         className="aboutcat-image" 
-                        style={{ height: '10rem', width: '9rem' }} 
+                        style={{ height: '10rem', width: '8rem' }} 
 />
                     </div>
                     <div className="aboutcat-content">
@@ -44,7 +44,7 @@ const AboutCat = () => {
 
                 <div className="aboutcat-card">
                     <div className="aboutcat-header">
-                        <img src={comp} alt="Competitions" className="aboutcat-image" />
+                        <img src={comp} alt="Competitions" className="aboutcat-image" style={{ height: '10rem', width: '14rem' }}  />
                     </div>
                     <div className="aboutcat-content">
                         <p className="aboutcat-category">Competitions</p>
@@ -58,7 +58,8 @@ const AboutCat = () => {
 
                 <div className="aboutcat-card">
                     <div className="aboutcat-header">
-                        <img src={hackstart} alt="Interest Group/Project/Activities" className="aboutcat-image" />
+                        
+                        <img src={hackstart} alt="Interest Group/Project/Activities" className="aboutcat-image" style={{ height: '10rem', width: '15rem' }} />
                     </div>
                     <div className="aboutcat-content">
                         <p className="aboutcat-category">Interest Group/Project/Activities</p>
@@ -71,7 +72,7 @@ const AboutCat = () => {
                 </div>
                 <div className="aboutcat-card">
                     <div className="aboutcat-header">
-                        <img src={cert} alt="Certifications" className="aboutcat-image" />
+                        <img src={cert} alt="Certifications" className="aboutcat-image" style={{ height: '10rem', width: '10rem' }}  />
                     </div>
                     <div className="aboutcat-content">
                         <p className="aboutcat-category">Certifications</p>
@@ -84,7 +85,7 @@ const AboutCat = () => {
 
                 <div className="aboutcat-card">
                     <div className="aboutcat-header">
-                        <img src={trophy} alt="Awards and Scholarship"  style={{ height: '10rem', width: '9rem' }} />
+                        <img src={trophy} alt="Awards and Scholarship"  style={{ height: '10rem', width: '8rem' }} />
                     </div>
                     <div className="aboutcat-content">
                         <p className="aboutcat-category">Awards and Scholarship</p>

@@ -45,7 +45,7 @@ const Disney = () => {
         <iframe
         width="100%"
         height="315"
-        src="https://www.youtube.com/embed/71gsrGjiue4"
+        src="https://www.youtube.com/embed/0qfMZgK-GOg"
         title="Journal Mobile App Video"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen

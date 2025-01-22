@@ -68,5 +68,12 @@
         "img": "style.png",
         "link": "/myportfolio/styleshop",
         "tags": ["Design"]
+    },
+    {
+        "title": "Disney Movie Finder",
+        "text": "I created an app called Disney Movie Finder, which fetches data from an API containing information about various disney movies. The app displays details such as the title, ratings, and duration of each movie in a list format. ",
+        "img": "disney1.png",
+        "link": "/myportfolio/disney",
+        "tags": ["Mobile Development"]
     }
 ]

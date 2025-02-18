@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio!</span>
                 <h1>{`Hi! I'm Amelia`}</h1>
                 <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "UI/UX Designer", "AI Enthusiast" ]'><span className="wrap">{text}</span></span></h1>
-                <p>Hi, I'm Amelia Jonaidy, currently pursuing a Diploma in Digital Design at Republic Polytechnic. My passion lies in the technology sector, especially in software development, where I focus on creating both web and mobile applications. In my portfolio, you'll find a showcase of my projects which includes both web and mobile developments! I find it exciting to see the development that I am creating or have already created come to life!</p>
+                <p>Hi, I'm Amelia Jonaidy, currently pursuing a Diploma in Digital Design and Development at Republic Polytechnic. My passion lies in the technology sector, especially in software development, where I focus on creating both web and mobile applications. In my portfolio, you'll find a showcase of my projects which includes both web and mobile developments! I find it exciting to see the development that I am creating or have already created come to life!</p>
                 <p>Apart from software development, I'm also exploring the fascinating world of Artificial Intelligence. With AI becoming more integrated into our daily lives, I believe it's crucial to deepen my understanding of its potential and applications.</p>
               </div>}
             </TrackVisibility>

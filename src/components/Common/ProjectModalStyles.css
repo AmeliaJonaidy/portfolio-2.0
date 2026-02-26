@@ -1,0 +1,214 @@
+/* ============================================================
+   ProjectModalStyles.css — lighter, airy theme
+   ============================================================ */
+
+/* --- Z-index: above the fixed navbar (z-index: 1040) --- */
+.modal {
+    z-index: 1055 !important;
+}
+.modal-backdrop {
+    z-index: 1054 !important;
+}
+
+/* --- Modal size --- */
+.project-modal {
+    --bs-modal-width: 860px;
+}
+
+/* --- Modal content wrapper: light background, NOT dark --- */
+.project-modal .modal-content {
+    background-color: #f5f7ff;
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    color: #1a1a2e;
+}
+
+/* --- Header: deep navy accent strip --- */
+.project-modal .modal-header {
+    background: linear-gradient(135deg, #0F1545, #2d3a8c);
+    border-bottom: none;
+    padding: 1.2rem 1.8rem;
+}
+.project-modal .modal-title {
+    color: #fff;
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+.project-modal .modal-header .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+    opacity: 0.75;
+    transition: opacity 0.2s;
+}
+.project-modal .modal-header .btn-close:hover {
+    opacity: 1;
+}
+
+/* --- Body: light, clean, easy to read --- */
+.project-modal-body {
+    max-height: 68vh;
+    overflow-y: auto;
+    padding: 1.5rem 1.8rem;
+    background-color: #f5f7ff;
+    scrollbar-width: thin;
+    scrollbar-color: #b0bdf0 #f5f7ff;
+}
+.project-modal-body::-webkit-scrollbar {
+    width: 5px;
+}
+.project-modal-body::-webkit-scrollbar-track {
+    background: #f5f7ff;
+}
+.project-modal-body::-webkit-scrollbar-thumb {
+    background-color: #b0bdf0;
+    border-radius: 3px;
+}
+
+/* --- Footer --- */
+.project-modal .modal-footer {
+    background-color: #eceffe;
+    border-top: 1px solid #d5daf5;
+    padding: 0.9rem 1.8rem;
+}
+.project-modal .modal-footer .btn-secondary {
+    background: linear-gradient(135deg, #0F1545, #2d3a8c);
+    border: none;
+    color: #fff;
+    padding: 0.48rem 1.4rem;
+    font-weight: 600;
+    border-radius: 50px;
+    font-size: 0.88rem;
+    transition: opacity 0.2s;
+}
+.project-modal .modal-footer .btn-secondary:hover {
+    opacity: 0.85;
+}
+
+/* --- Sections --- */
+.modal-section {
+    margin-bottom: 1rem;
+    padding: 1.1rem 1.3rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-left: 3px solid #4A2FBD;
+    box-shadow: 0 2px 8px rgba(74, 47, 189, 0.07);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.modal-section:last-child {
+    margin-bottom: 0;
+}
+.modal-section:hover {
+    border-left-color: #AA367C;
+    box-shadow: 0 3px 12px rgba(170, 54, 124, 0.1);
+}
+.modal-section h4 {
+    color: #4A2FBD;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+/* --- Text --- */
+.modal-text {
+    color: #3a3a5c;
+    line-height: 1.7;
+    margin-bottom: 0;
+    font-size: 0.93rem;
+}
+.modal-role {
+    font-style: italic;
+    color: #4A2FBD;
+    font-weight: 600;
+}
+
+/* --- Tech / Tool Badges --- */
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 0.2rem;
+}
+.tech-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #0F1545, #2d3a8c);
+    color: #c8d4ff;
+    padding: 0.28rem 0.85rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    border: none;
+}
+
+/* --- Lists --- */
+.features-list,
+.challenges-list,
+.learnings-list,
+.improvements-list {
+    padding-left: 1.2rem;
+    margin: 0;
+}
+.features-list li,
+.challenges-list li,
+.learnings-list li,
+.improvements-list li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+    color: #3a3a5c;
+    font-size: 0.91rem;
+}
+.features-list li:last-child,
+.challenges-list li:last-child,
+.learnings-list li:last-child,
+.improvements-list li:last-child {
+    margin-bottom: 0;
+}
+.features-list li strong,
+.challenges-list li strong,
+.learnings-list li strong,
+.improvements-list li strong {
+    color: #0F1545;
+}
+
+/* --- Video --- */
+.project-video-modal {
+    border-radius: 8px;
+    margin-top: 0.75rem;
+    border: 1px solid #d5daf5;
+}
+
+/* --- Live Link --- */
+.live-link {
+    color: #4A2FBD;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.93rem;
+    transition: color 0.2s ease;
+}
+.live-link:hover {
+    color: #AA367C;
+    text-decoration: underline;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    .project-modal {
+        --bs-modal-width: 95vw;
+    }
+    .project-modal-body {
+        padding: 1rem;
+        max-height: 78vh;
+    }
+    .modal-section {
+        padding: 0.9rem 1rem;
+        margin-bottom: 0.85rem;
+    }
+    .tech-badge {
+        font-size: 0.76rem;
+        padding: 0.25rem 0.7rem;
+    }
+}

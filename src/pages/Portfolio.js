@@ -9,9 +9,7 @@ function Portfolio() {
   return (
     <div className="App">
         <NavBar/>
-        <div className='page-wrapper'>
         <PortfolioLand/>
-      </div>
       <Footer/>
     </div>
   );

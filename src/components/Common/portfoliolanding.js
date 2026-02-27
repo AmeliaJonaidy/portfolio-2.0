@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import TrackVisibility from 'react-on-screen';
+import 'animate.css';
 import config from '../../config/config.json';
 import ProjectModal from './ProjectModal';
 import '../Styles/CardPage.css';
@@ -34,7 +37,41 @@ function PortfolioLand() {
     return (
         <div className='portfolio-land'>
 
-            {/* Tag filter bar */}
+            {/* ── Hero Overview ── */}
+            <section className="portfolio-hero">
+                <div className="portfolio-hero-bg" aria-hidden="true">
+                    <span className="portfolio-orb portfolio-orb--1" />
+                    <span className="portfolio-orb portfolio-orb--2" />
+                    <div className="portfolio-hero-grid" />
+                </div>
+                <Container>
+                    <TrackVisibility>
+                        {({ isVisible }) => (
+                            <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                                <div className="portfolio-hero-content">
+                                    <span className="portfolio-hero-badge">My Portfolio</span>
+                                    <h1 className="portfolio-hero-title">
+                                        Projects &amp; Work
+                                    </h1>
+                                    <p className="portfolio-hero-desc">
+                                        A collection of projects spanning mobile development, web applications,
+                                        AI, game development, and design. Each project reflects my passion for
+                                        building meaningful solutions through technology.
+                                    </p>
+                                    <div className="portfolio-hero-meta">
+                                        <div className="portfolio-meta-pill"><span>📱</span> Mobile Development</div>
+                                        <div className="portfolio-meta-pill"><span>🌐</span> Web Development</div>
+                                        <div className="portfolio-meta-pill"><span>🤖</span> Artificial Intelligence</div>
+                                        <div className="portfolio-meta-pill"><span>🎮</span> Game Development</div>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+                    </TrackVisibility>
+                </Container>
+            </section>
+
+            {/* ── Tag filter bar — sticky ── */}
             <div className="tags-navbar">
                 {uniqueTags.map((tag, index) => (
                     <span
@@ -47,7 +84,7 @@ function PortfolioLand() {
                 ))}
             </div>
 
-            {/* Card grid */}
+            {/* ── Card grid ── */}
             <div className="portfolio-cards-grid">
                 {filteredCards.map((eachCard, index) => (
                     <div className='portfolio-card-container' key={index}>

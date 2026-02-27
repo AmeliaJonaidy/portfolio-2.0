@@ -1,0 +1,259 @@
+/* ============================================
+   Volunteer Page Styles
+   Matches internship.css palette & structure
+   ============================================ */
+
+.volunteer-page {
+  overflow-x: hidden;
+  background-color: #4B5882;
+}
+
+/* ============================================
+   Hero
+   ============================================ */
+.volunteer-hero {
+  position: relative;
+  padding: 160px 0 80px;
+  background: linear-gradient(135deg, #0F1545, #202459);
+  overflow: hidden;
+}
+
+.volunteer-hero-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.vol-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.3;
+}
+
+.vol-orb--1 {
+  width: 420px;
+  height: 420px;
+  background: #4B5882;
+  top: -120px;
+  right: -80px;
+}
+
+.vol-orb--2 {
+  width: 280px;
+  height: 280px;
+  background: #94abff;
+  bottom: -80px;
+  left: 5%;
+  opacity: 0.15;
+}
+
+.vol-hero-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.volunteer-hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+}
+
+.volunteer-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #0F1545, #202459);
+  border: 1px solid rgba(148, 171, 255, 0.35);
+  color: #94abff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.volunteer-hero-title {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.volunteer-hero-desc {
+  font-size: 1rem;
+  color: #B8B8B8;
+  line-height: 1.75;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.volunteer-hero-meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.vol-meta-pill {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  color: #d0d0d0;
+}
+
+/* ============================================
+   Sections
+   ============================================ */
+.vol-section {
+  padding: 72px 0;
+  background-color: #4B5882;
+}
+
+.vol-section--alt {
+  background-color: #3d4a6e;
+}
+
+.vol-section--closing {
+  background: linear-gradient(180deg, #4B5882 0%, #0F1545 100%);
+}
+
+/* ── Section text ── */
+.vol-section-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #94abff;
+  margin-bottom: 8px;
+}
+
+.vol-section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.vol-role-badge {
+  display: inline-block;
+  background: rgba(148, 171, 255, 0.12);
+  border: 1px solid rgba(148, 171, 255, 0.3);
+  color: #94abff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  border-radius: 50px;
+  margin-bottom: 18px;
+}
+
+.vol-body {
+  color: #B8B8B8;
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 14px;
+}
+
+/* ── Images ── */
+.vol-img-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.vol-img {
+  max-width: 100%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+}
+
+.vol-img--round {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(148, 171, 255, 0.3);
+}
+
+.vol-img--rect {
+  width: 400px;
+  height: 270px;
+  border-radius: 16px;
+  object-fit: cover;
+  border: 1px solid rgba(148, 171, 255, 0.2);
+}
+
+/* ── Back button ── */
+.vol-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  background: linear-gradient(135deg, #202459, #4B5882);
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  letter-spacing: 0.4px;
+}
+
+.vol-back-btn:hover {
+  background: linear-gradient(135deg, #0F1545, #202459);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(15, 21, 69, 0.5);
+}
+
+.vol-back-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 768px) {
+  .volunteer-hero { padding: 120px 0 60px; }
+
+  .volunteer-hero-title { font-size: 2rem; }
+
+  .vol-img--round {
+    width: 260px;
+    height: 260px;
+  }
+
+  .vol-img--rect {
+    width: 100%;
+    height: 220px;
+  }
+
+  .vol-section-title { font-size: 1.5rem; }
+
+  .vol-img-col { margin-bottom: 28px; }
+}
+
+@media (max-width: 480px) {
+  .volunteer-hero-meta { flex-direction: column; }
+
+  .vol-meta-pill { font-size: 0.78rem; }
+
+  .vol-img--round {
+    width: 220px;
+    height: 220px;
+  }
+}

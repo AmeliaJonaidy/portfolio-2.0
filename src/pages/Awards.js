@@ -8,9 +8,7 @@ function Awards() {
   return (
     <div className="App">
         <NavBar/>
-      <div className='page-wrapper'>
         <AwardsP1/>
-      </div>
       <Footer/>
     </div>
   );

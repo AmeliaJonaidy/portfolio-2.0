@@ -1,4 +1,62 @@
 [
+        {
+        "id": "scamateur",
+        "title": "Scamateur",
+        "shortText": "A mobile game for young adults aged 15-29 where players take on the role of youth cyber defenders, analysing real-world-inspired scam cases to build cyber awareness and social empathy.",
+        "img": "scamateur.png",
+        "tags": ["Mobile Development", "Game Development", "Artificial Intelligence"],
+        "summary": "Despite many youths aged 15-29 believing they can identify scams, they remain the most frequent victims. Scamateur addresses this gap through an interactive mobile game where players act as cyber defenders — analysing real-world-inspired scam scenarios to prevent misinformation, support victims, and build genuine cyber awareness and social empathy.",
+        "technologies": [],
+        "features": [],
+        "targetAudience": "Young adults aged 15-29 who are frequent scam targets despite believing they can identify scams.",
+        "futureImprovements": [],
+        "role": "Team Lead, Coded out some features",
+        "videoId": ""
+    },
+    {
+        "id": "kkhchatbot",
+        "title": "KKH Chatbot and Education Website",
+        "shortText": "A responsive web-based chatbot and learning platform built for nurses, providing quick access to clinical guidelines, calculators, quizzes, and scenarios to support decision-making on the job.",
+        "img": "kkhchatbot.jpg",
+        "tags": ["Web Development", "Artificial Intelligence"],
+        "summary": "Nurses often struggle to access clinical guidelines quickly during shifts — resources are slow, scattered, or outdated. We built a responsive web-based chatbot tailored for nurses, integrating up-to-date clinical documents and calculators. Using natural language processing and semantic search, the chatbot delivers precise answers and performs calculations. It also features interactive quizzes, flashcards, and clinical scenarios to support continuous learning during busy shifts.",
+        "technologies": [],
+        "features": [
+            "AI Chatbot: Uses NLP and semantic search to answer clinical questions and perform calculations.",
+            "Clinical Calculators: Integrated tools for quick on-the-job calculations.",
+            "Interactive Quizzes & Scenarios: Engaging learning tools designed for nurses with limited time.",
+            "Flashcards: Bite-sized learning for ongoing education during shifts."
+        ],
+        "targetAudience": "Nurses who need fast, reliable access to clinical guidelines and flexible learning tools during busy hospital shifts.",
+        "futureImprovements": [],
+        "role": "Team Lead, Backend Development",
+        "videoId": ""
+    },
+{
+        "id": "ecofy",
+        "title": "Ecofy",
+        "shortText": "A pixel-art household simulator that bridges Singapore's sustainability Value-Action Gap — turning abstract climate trade-offs into a real dollars-and-cents survival game set in a realistic HDB environment.",
+        "img": "ecofy.png",
+        "tags": ["Game Development", "Artificial Intelligence"],
+        "summary": "While 80% of Singaporeans care about the environment, only 32% take action due to the perceived 'Sustainability Premium.' Ecofy tackles this with a pixel-art HDB simulator where players manage real Singaporean household costs, PUB bills, and carbon footprint in real-time. An LLM-powered Landlord persona reacts to your decisions with witty Singaporean commentary, while a Curveball Engine introduces unpredictable events like tariff hikes and appliance repairs — making the long-term ROI of sustainable choices visible and tangible.",
+        "technologies": ["Python", "Pygame", "FastAPI", "Uvicorn", "OpenAI API (GPT-4o)"],
+        "features": [
+            "HDB Simulation: Manage realistic Singaporean monthly salaries, town council fees, and PUB bills.",
+            "Dynamic Plot Graphs: Visualise cash flow and carbon footprint interactions in real-time.",
+            "LLM-Powered Landlord Persona: Reactive AI commentary tailored to your habits — helpful mentor in Easy Mode, tough 'Tiger Landlord' in Hard Mode.",
+            "Curveball Engine: Unpredictable events like electricity tariff hikes, carbon tax changes, and appliance repairs.",
+            "Granular Appliance Usage: Input estimated hours of use for precise bill calculations (Cost = Wattage × Hours × Tariff).",
+            "User Authentication & Progress Persistence: Secure login with individual game state saved per user.",
+            "Pixel Art Interface: Low-cognitive-load retro design built for accessibility and performance on student devices."
+        ],
+        "targetAudience": "Singapore youth and households who care about sustainability but are deterred by perceived high costs of eco-friendly living.",
+        "futureImprovements": [
+            "Housing Type Selection System: Players choose flat types (3-room, 4-room, 5-room) that dynamically affect budget limits, space management, and energy consumption.",
+            "What-If Financial Projection UI: Real-time PUB bill forecasting based on player behaviour and usage patterns."
+        ],
+        "role": "LLM Implementor, Backend Development, Frontend Improvements and New Game Mechanics",
+        "videoId": "ff_g-rOea68"
+    },
     {
         "id": "botanybazaar",
         "title": "BotanyBazaar",

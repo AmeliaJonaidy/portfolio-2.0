@@ -1,0 +1,272 @@
+/* ============================================
+   Certifications Page Styles
+   ============================================ */
+
+.certs-page {
+  overflow-x: hidden;
+  background-color: #4B5882;
+  width: 100%;
+}
+
+/* ── Hero ── */
+.certs-hero {
+  position: relative;
+  padding: 160px 0 80px;
+  background: linear-gradient(135deg, #0F1545, #202459);
+  overflow: hidden;
+}
+
+.certs-hero-bg { position: absolute; inset: 0; pointer-events: none; }
+
+.certs-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.3;
+}
+.certs-orb--1 { width: 420px; height: 420px; background: #4B5882; top: -120px; right: -80px; }
+.certs-orb--2 { width: 280px; height: 280px; background: #94abff; bottom: -80px; left: 5%; opacity: 0.15; }
+
+.certs-hero-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.certs-hero-content { position: relative; z-index: 1; max-width: 700px; }
+
+.certs-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #0F1545, #202459);
+  border: 1px solid rgba(148, 171, 255, 0.35);
+  color: #94abff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.certs-hero-title {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.certs-hero-desc {
+  font-size: 1rem;
+  color: #B8B8B8;
+  line-height: 1.75;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.certs-hero-meta { display: flex; gap: 12px; flex-wrap: wrap; }
+
+.certs-meta-pill {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  color: #d0d0d0;
+}
+
+/* ── Sections ── */
+.certs-section { padding: 72px 0; background-color: #4B5882; }
+.certs-section--alt { background-color: #3d4a6e; }
+.certs-section--closing { background: linear-gradient(180deg, #4B5882 0%, #0F1545 100%); }
+
+.certs-section-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #94abff;
+  margin-bottom: 8px;
+}
+
+.certs-section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.certs-body {
+  color: #B8B8B8;
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+/* ── Image ── */
+.certs-img-col { display: flex; justify-content: center; align-items: center; margin-bottom: 24px; }
+
+.certs-img {
+  width: 280px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid rgba(148,171,255,0.2);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+}
+
+/* ── Individual cert cards ── */
+.cert-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(148,171,255,0.15);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  transition: border-color 0.3s ease, transform 0.2s ease;
+}
+
+.cert-card:hover {
+  border-color: rgba(148,171,255,0.4);
+  transform: translateX(4px);
+}
+
+.cert-card-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.cert-icon { font-size: 1.5rem; flex-shrink: 0; }
+
+.cert-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 4px;
+  line-height: 1.4;
+}
+
+.cert-date {
+  font-size: 0.78rem;
+  color: #94abff;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.cert-view-link {
+  flex-shrink: 0;
+  color: #94abff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid rgba(148,171,255,0.3);
+  padding: 6px 14px;
+  border-radius: 50px;
+  transition: background 0.3s ease, color 0.3s ease;
+  white-space: nowrap;
+}
+
+.cert-view-link:hover {
+  background: rgba(148,171,255,0.15);
+  color: #c4d2ff;
+}
+
+.cert-view-link--lg {
+  font-size: 0.95rem;
+  padding: 10px 22px;
+}
+
+/* ── LinkedIn grid ── */
+.linkedin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.linkedin-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 14px 16px;
+  transition: border-color 0.3s ease, transform 0.2s ease;
+}
+
+.linkedin-card:hover {
+  border-color: rgba(148,171,255,0.3);
+  transform: translateY(-2px);
+}
+
+.linkedin-card-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #e0e0e0;
+  line-height: 1.4;
+}
+
+.linkedin-card-date {
+  font-size: 0.75rem;
+  color: #94abff;
+  letter-spacing: 0.5px;
+}
+
+/* ── Footer row ── */
+.certs-footer-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+/* ── Back button ── */
+.certs-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #202459, #4B5882);
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.certs-back-btn:hover {
+  background: linear-gradient(135deg, #0F1545, #202459);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(15,21,69,0.5);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .certs-hero { padding: 120px 0 60px; }
+  .certs-hero-title { font-size: 2rem; }
+  .certs-img { width: 220px; height: 290px; }
+  .certs-section-title { font-size: 1.5rem; }
+  .linkedin-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .certs-hero-meta { flex-direction: column; }
+  .cert-card { flex-direction: column; align-items: flex-start; }
+  .certs-footer-row { flex-direction: column; align-items: flex-start; }
+}

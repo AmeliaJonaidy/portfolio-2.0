@@ -1,0 +1,326 @@
+/* ============================================
+   LandingAbout — mirrors activities.css style
+   ============================================ */
+
+.lab-page {
+  overflow-x: hidden;
+  background-color: #4B5882;
+  width: 100%;
+}
+
+/* ── Hero ── */
+.lab-hero {
+  position: relative;
+  padding: 160px 0 100px;
+  background: linear-gradient(135deg, #0F1545, #202459);
+  overflow: hidden;
+}
+
+.lab-hero-bg { position: absolute; inset: 0; pointer-events: none; }
+
+.lab-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.3;
+}
+.lab-orb--1 { width: 420px; height: 420px; background: #4B5882; top: -120px; right: -80px; }
+.lab-orb--2 { width: 280px; height: 280px; background: #94abff; bottom: -80px; left: 5%; opacity: 0.15; }
+
+.lab-hero-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.lab-hero-row { position: relative; z-index: 1; }
+
+/* ── Badge ── */
+.lab-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #0F1545, #202459);
+  border: 1px solid rgba(148, 171, 255, 0.35);
+  color: #94abff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+/* ── Hero title ── */
+.lab-hero-title {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+
+/* ── Body text ── */
+.lab-body {
+  color: #B8B8B8;
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 14px;
+}
+.lab-body strong { color: #ffffff; }
+
+/* ── Meta pills ── */
+.lab-hero-meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.lab-meta-pill {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  color: #d0d0d0;
+}
+
+/* ── Resume button ── */
+.lab-resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #202459, #4B5882);
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lab-resume-btn:hover {
+  background: linear-gradient(135deg, #0F1545, #202459);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(15,21,69,0.5);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.lab-resume-btn:active { transform: translateY(0); box-shadow: none; }
+
+/* ── Photo ── */
+.lab-img-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  position: relative;
+  z-index: 1;
+}
+
+.lab-img-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.lab-img {
+  width: 280px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid rgba(148, 171, 255, 0.2);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.45);
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+.lab-img-glow {
+  position: absolute;
+  inset: -8px;
+  border-radius: 26px;
+  background: radial-gradient(ellipse at center, rgba(148, 171, 255, 0.2), transparent 70%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ══════════════════════════════════════
+   Categories / Slider Section
+══════════════════════════════════════ */
+.lab-cats-section {
+  position: relative;
+  padding: 80px 0 100px;
+  background-color: #3d4a6e;
+  overflow: hidden;
+}
+
+.lab-cats-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.lab-section-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #94abff;
+  margin-bottom: 10px;
+}
+
+.lab-section-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* ── Slider spacing ── */
+.lab-slider { padding-bottom: 48px; }
+
+/* Make all slick slides equal height */
+.lab-slider .slick-track {
+  display: flex !important;
+}
+
+.lab-slider .slick-slide {
+  height: inherit !important;
+}
+
+.lab-slider .slick-slide > div {
+  height: 100%;
+}
+
+.lab-slide-wrapper { padding: 0 10px; height: 100%; }
+
+/* ── Cards ── */
+.lab-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(148,171,255,0.15);
+  border-radius: 18px;
+  overflow: hidden;
+  display: flex !important;
+  flex-direction: column;
+  height: 100%;
+  transition: border-color 0.3s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.lab-card:hover {
+  border-color: rgba(148,171,255,0.45);
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.35);
+}
+
+/* Image area — fixed height so all cards align */
+.lab-card-img-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(15,21,69,0.5);
+  padding: 0;
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.lab-card-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.lab-card-icon {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  font-size: 1.3rem;
+  background: rgba(148,171,255,0.12);
+  border: 1px solid rgba(148,171,255,0.25);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card body */
+.lab-card-body {
+  padding: 20px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.lab-card-category {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #94abff;
+  letter-spacing: 0.5px;
+  margin: 0 0 10px;
+}
+
+.lab-card-desc {
+  font-size: 0.875rem;
+  color: #B8B8B8;
+  line-height: 1.7;
+  margin: 0 0 20px;
+  flex: 1;
+}
+
+.lab-card-btn {
+  align-self: flex-start;
+  background: linear-gradient(135deg, #202459, #4B5882);
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 9px 22px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lab-card-btn:hover {
+  background: linear-gradient(135deg, #0F1545, #202459);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(15,21,69,0.45);
+}
+
+.lab-card-btn:active { transform: translateY(0); box-shadow: none; }
+
+/* ── Slick dots override to match dark theme ── */
+.lab-slider .slick-dots li button:before {
+  color: #94abff;
+  opacity: 0.4;
+  font-size: 8px;
+}
+.lab-slider .slick-dots li.slick-active button:before {
+  color: #94abff;
+  opacity: 1;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .lab-hero { padding: 120px 0 70px; }
+  .lab-hero-title { font-size: 2rem; }
+  .lab-img { width: 220px; height: 250px; }
+  .lab-section-title { font-size: 1.5rem; }
+}
+
+@media (max-width: 480px) {
+  .lab-hero-meta { flex-direction: column; }
+}

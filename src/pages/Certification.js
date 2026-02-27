@@ -8,9 +8,7 @@ function Certs() {
   return (
     <div className="App">
         <NavBar/>
-      <div className='page-wrapper'>
         <Certifications1/>
-      </div>
       <Footer/>
     </div>
   );

@@ -1,103 +1,184 @@
-import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import cert from "../../assets/img/cert.png"
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import pcepcert from "../../assets/img/pcepcert.pdf";
-import LiteracyAI from "../../assets/img/AISGcert.pdf";
-import AWSSkills from "../../assets/img/AWSskillcert.pdf";
-
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { useNavigate } from 'react-router-dom';
+import cert from '../../assets/img/cert.png';
+import pcepcert from '../../assets/img/pcepcert.pdf';
+import LiteracyAI from '../../assets/img/AISGcert.pdf';
+import AWSSkills from '../../assets/img/AWSskillcert.pdf';
+import '../Styles/certification.css';
 
-export const Certificate1 = () => {
+const linkedinCerts = [
+  { name: "Photoshop 2021 Quick Start", date: "May 2024" },
+  { name: "Learning Node.js", date: "May 2024" },
+  { name: "Introduction to Web Design and Development", date: "May 2024" },
+  { name: "Illustrator 2023 Quick Start", date: "May 2024" },
+  { name: "Software Testing Foundations: Test Planning", date: "Oct 2024" },
+  { name: "UX Design: 3 Creating Personas", date: "Nov 2024" },
+  { name: "Software Testing Foundations: Test Techniques", date: "Nov 2024" },
+  { name: "Software Testing Foundations: Bug Writing and Management", date: "Nov 2024" },
+  { name: "Learning React Native", date: "Nov 2024" },
+  { name: "Learning Jira Cloud Edition", date: "Nov 2024" },
+  { name: "Figma: Using Auto Layout", date: "Nov 2024" },
+  { name: "Figma Essential Training: The Basics", date: "Nov 2024" },
+  { name: "Unit Testing and Test Driven Development in Python", date: "Jan 2025" },
+  { name: "Building Modern UIs with React Router v6", date: "Jan 2025" },
+  { name: "Google Analytics 4 (GA4) Essential Training", date: "Jan 2025" },
+  {name: "Software Testing Assistance with GitHub Copilot AI", date: "Feb 2025"},
+  {name: "Build AI Agents and Automate Workflows with n8n", date: "July 2025"}
+];
+
+const Certifications = () => {
   const navigate = useNavigate();
+
   return (
-    <section className="volunteerabout" id="home">
-            <style>
-        {`
-          .cert-links {
-            color:rgb(104, 174, 255);
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s, text-decoration 0.3s;
-          }
+    <div className="certs-page">
 
-          .cert-links:hover {
-            color:rgb(22, 133, 250);
-            text-decoration: underline;
-          }
-        `}
-      </style>
-      <Container>
-        <Row className="align-items-center">
-          <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div>
-                  <img 
-                    src={cert} 
-                    alt="cert Img" 
-                    style={{ 
-                      width: '300px', 
-                      height: '400px', 
-                      objectFit: 'cover' 
-                    }} 
-                  />
-                </div>}
-            </TrackVisibility>
-          </Col>
-          <Col xs={12} md={6} xl={7}>
-            <TrackVisibility>
-              {({ isVisible }) =>
+      {/* ── Hero ── */}
+      <section className="certs-hero">
+        <div className="certs-hero-bg" aria-hidden="true">
+          <span className="certs-orb certs-orb--1" />
+          <span className="certs-orb certs-orb--2" />
+          <div className="certs-hero-grid" />
+        </div>
+        <Container>
+          <TrackVisibility>
+            {({ isVisible }) => (
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Certifications</span>
+                <div className="certs-hero-content">
+                  <span className="certs-badge">Certifications</span>
+                  <h1 className="certs-hero-title">Credentials &amp;<br />Continuous Learning</h1>
+                  <p className="certs-hero-desc">
+                    Throughout my Diploma program, I've earned various certifications across Python,
+                    AI literacy, cloud computing, UX design, and software development — from platforms
+                    like PCEP, AI Singapore, AWS, and LinkedIn Learning.
+                  </p>
+                  <div className="certs-hero-meta">
+                    <div className="certs-meta-pill"><span>🐍</span> PCEP Python</div>
+                    <div className="certs-meta-pill"><span>🤖</span> AI Singapore</div>
+                    <div className="certs-meta-pill"><span>☁️</span> AWS</div>
+                    <div className="certs-meta-pill"><span>💼</span> LinkedIn Learning × 15</div>
+                  </div>
+                </div>
+              </div>
+            )}
+          </TrackVisibility>
+        </Container>
+      </section>
 
-                <p>PCEP - Certified Entry Level Python Programmer: Certified on March 13,2024<br/>
-                View Certificate: <a href={pcepcert} target="_blank" rel="noopener noreferrer" className="cert-links">PCEP Certificate</a><br/>
+      {/* ── Section 1: Professional Certs ── */}
+      <section className="certs-section certs-section--alt">
+        <Container>
+          <TrackVisibility>
+            {({ isVisible }) => (
+              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <Row className="align-items-center">
+                  <Col xs={12} md={6} xl={7}>
+                    <div className="certs-section-label">Professional Certifications</div>
+                    <h2 className="certs-section-title">Industry Credentials</h2>
+
+                    <div className="cert-card">
+                      <div className="cert-card-left">
+                        <div>
+                          <p className="cert-name">PCEP — Certified Entry-Level Python Programmer</p>
+                          <p className="cert-date">Certified March 13, 2024</p>
+                        </div>
+                      </div>
+                      <a href={pcepcert} target="_blank" rel="noopener noreferrer" className="cert-view-link">
+                        View ↗
+                      </a>
+                    </div>
+
+                    <div className="cert-card">
+                      <div className="cert-card-left">
+                        <div>
+                          <p className="cert-name">AI For Industry: Literacy in AI — AI Singapore</p>
+                          <p className="cert-date">Certified April 2, 2024</p>
+                        </div>
+                      </div>
+                      <a href={LiteracyAI} target="_blank" rel="noopener noreferrer" className="cert-view-link">
+                        View ↗
+                      </a>
+                    </div>
+
+                    <div className="cert-card">
+                      <div className="cert-card-left">
+                        <div>
+                          <p className="cert-name">AWS AI Skills Builder — Singapore Computer Society</p>
+                          <p className="cert-date">Certified December 12, 2024</p>
+                        </div>
+                      </div>
+                      <a href={AWSSkills} target="_blank" rel="noopener noreferrer" className="cert-view-link">
+                        View ↗
+                      </a>
+                    </div>
+
+                    <div className="cert-card">
+                      <div className="cert-card-left">
+                        <div>
+                          <p className="cert-name">Google IT Automation with Python</p>
+                          <p className="cert-date">Certified December 12, 2024</p>
+                        </div>
+                      </div>
+                      <a
+                        href="https://www.coursera.org/account/accomplishments/specialization/TRLWHJJBRYQT"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cert-view-link"
+                      > View ↗
+                      </a>
+                    </div>
+
+                  </Col>
+                </Row>
+              </div>
+            )}
+          </TrackVisibility>
+        </Container>
+      </section>
+
+      {/* ── Section 2: LinkedIn Learning ── */}
+      <section className="certs-section certs-section--closing">
+        <Container>
+          <TrackVisibility>
+            {({ isVisible }) => (
+              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <div className="certs-section-label">LinkedIn Learning</div>
+                <h2 className="certs-section-title">Online Courses</h2>
+                <p className="certs-body">
+                  I've completed 15 LinkedIn Learning courses spanning UI/UX design, frontend development,
+                  software testing, and design tools.
                 </p>
+                <div className="linkedin-grid">
+                  {linkedinCerts.map((c) => (
+                    <div className="linkedin-card" key={c.name}>
+                      <span className="linkedin-card-name">{c.name}</span>
+                      <span className="linkedin-card-date">{c.date}</span>
+                    </div>
+                  ))}
+                </div>
+                <div className="certs-footer-row">
+                  <a
+                    href="https://www.linkedin.com/in/amelia-jonaidy-299a5b238/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cert-view-link cert-view-link--lg"
+                  >
+                    View All LinkedIn Certificates ↗
+                  </a>
+                  <button className="certs-back-btn" onClick={() => navigate('/aboutme')}>
+                    Back to About Me <ArrowRightCircle size={20} />
+                  </button>
+                </div>
+              </div>
+            )}
+          </TrackVisibility>
+        </Container>
+      </section>
 
-                <p>AI For Industry: Literacy in AI - AI Singapore: Certified on April 2,2024<br/>
-                View Certificate: <a href={LiteracyAI} target="_blank" rel="noopener noreferrer" className="cert-links">Literacy in AI Certificate</a><br/>
-                </p>
+    </div>
+  );
+};
 
-                
-                <p>AWS AI Skills Builder Course associated with Singapore Computer Society: Certified on Decemember 12, 2024<br/>
-                View Certificate: <a href={AWSSkills} target="_blank" rel="noopener noreferrer" className="cert-links">AWS AI Certificate</a><br/>
-                </p>
-
-                <p>
-                <strong>Linkedin Learning Certificates:</strong> <br/>
-                <ul>
-        <li>Photoshop 2021 Quick Start - May 2024</li>
-        <li>Learning Node.js - May 2024</li>
-        <li>Introduction to Web Design and Development - May 2024</li>
-        <li>Illustrator 2023 Quick Start - May 2024</li>
-        <li>Software Testing Foundations: Test Planning - Oct 2024</li>
-        <li>UX Design: 3 Creating Personas - Nov 2024</li>
-        <li>Software Testing Foundations: Test Techniques - Nov 2024</li>
-        <li>Software Testing Foundations: Bug Writing and Management - Nov 2024</li>
-        <li>Learning React Native - Nov 2024</li>
-        <li>Learning Jira Cloud Edition - Nov 2024</li>
-        <li>Figma: Using Auto Layout - Nov 2024</li>
-        <li>Figma Essential Training: The Basics - Nov 2024</li>
-        <li>Unit Testing and Test Driven Development in Python - Jan 2025</li>
-        <li>Building Modern UIs with React Router v6 - Jan 2025</li>
-        <li>Google Analytics 4 (GA4) Essential Training - Jan 2025</li>
-      </ul>
-                View Certificate: <a href="https://www.linkedin.com/in/amelia-jonaidy-299a5b238/" target="_blank" rel="noopener noreferrer" className="cert-links">All Linkedin Learning Certificate</a><br/>
-                </p>
-
-
-                <button onClick={() => navigate('/aboutme')}> Back to About Me <ArrowRightCircle size={25} />
-                </button>
-              </div>}
-            </TrackVisibility>
-          </Col>
-        </Row>
-      </Container>
-    </section>
-  )
-}
-
-export default Certificate1;
+export default Certifications;

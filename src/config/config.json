@@ -1,17 +1,26 @@
 [
-        {
+    {
         "id": "scamateur",
         "title": "Scamateur",
         "shortText": "A mobile game for young adults aged 15-29 where players take on the role of youth cyber defenders, analysing real-world-inspired scam cases to build cyber awareness and social empathy.",
         "img": "scamateur.png",
         "tags": ["Mobile Development", "Game Development", "Artificial Intelligence"],
         "summary": "Despite many youths aged 15-29 believing they can identify scams, they remain the most frequent victims. Scamateur addresses this gap through an interactive mobile game where players act as cyber defenders — analysing real-world-inspired scam scenarios to prevent misinformation, support victims, and build genuine cyber awareness and social empathy.",
-        "technologies": [],
-        "features": [],
+        "technologies": [
+            "GameMaker Studio"
+        ],
+        "features": [
+            "Prevent Misinformation: Players explore realistic scam cases using interactive tools like a Protocol Book and Checklist to spot red flags and learn step-by-step strategies to avoid scams.",
+            "Fostering Stronger Cyber Awareness: Through Ribbit, an in-game forum based on real victim stories, players interact with NPC posts to learn empathetic responses. This builds emotional intelligence, social responsibility, and deeper understanding of scams’ real-world impact.",
+            "Boosting Player Engagement: Players earn badges and unlock rewards through a visual achievement board, encouraging replayability and reinforcing good digital habits in a fun, rewarding way."
+        ],
         "targetAudience": "Young adults aged 15-29 who are frequent scam targets despite believing they can identify scams.",
-        "futureImprovements": [],
+        "futureImprovements": [
+            "Daily Real-World Mini Cases: Introduce a once-per-day interactive scam challenge inspired by recent real-world scam trends to keep gameplay relevant and reinforce continuous awareness.",
+            "Real-World Incentives: Collaborate with government agencies to provide tangible rewards such as transport top-ups or grocery vouchers tied to in-game achievements to encourage sustained engagement."
+        ],
         "role": "Team Lead, Coded out some features",
-        "videoId": ""
+        "videoId": "S3o5WOvcNpU"
     },
     {
         "id": "kkhchatbot",
@@ -20,7 +29,16 @@
         "img": "kkhchatbot.jpg",
         "tags": ["Web Development", "Artificial Intelligence"],
         "summary": "Nurses often struggle to access clinical guidelines quickly during shifts — resources are slow, scattered, or outdated. We built a responsive web-based chatbot tailored for nurses, integrating up-to-date clinical documents and calculators. Using natural language processing and semantic search, the chatbot delivers precise answers and performs calculations. It also features interactive quizzes, flashcards, and clinical scenarios to support continuous learning during busy shifts.",
-        "technologies": [],
+        "technologies": [
+            "MongoDB",
+            "FastAPI",
+            "Python",
+            "Artificial Intelligence (AI)",
+            "n8n",
+            "Retrieval-Augmented Generation (RAG)",
+            "Next.js",
+            "React.js"
+        ],
         "features": [
             "AI Chatbot: Uses NLP and semantic search to answer clinical questions and perform calculations.",
             "Clinical Calculators: Integrated tools for quick on-the-job calculations.",
@@ -28,9 +46,12 @@
             "Flashcards: Bite-sized learning for ongoing education during shifts."
         ],
         "targetAudience": "Nurses who need fast, reliable access to clinical guidelines and flexible learning tools during busy hospital shifts.",
-        "futureImprovements": [],
+        "futureImprovements": [
+            "Enhanced LLM Accuracy: Improve model responses to better align with hospital-specific clinical contexts for higher reliability.",
+            "Role-Based LMS Integration: Allow authorised nurses to update quizzes, learning materials, and LMS content through a dedicated role-based management interface."
+        ],
         "role": "Team Lead, Backend Development",
-        "videoId": ""
+        "videoId": "TDAmuxWhOEw"
     },
 {
         "id": "ecofy",

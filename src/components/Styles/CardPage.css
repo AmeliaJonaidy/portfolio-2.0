@@ -98,7 +98,7 @@
 .tags-navbar {
   position: sticky;
   top: 0;
-  z-index: 9999;
+  z-index: 100;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
